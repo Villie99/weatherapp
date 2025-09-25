@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { GameBoardProps } from "../../interfaces/IGameBoard";
-import { getCurrentWeatherFromCity } from "../../pages/api/current/index";
-import { getCityImage } from "../../pages/api/pexels/index";
+import { getCurrentWeatherFromCity, getCityImage } from "../../../../utils/api";
 import LeftPanel from "../LeftPanel";
 import RightPanel from "../RightPanel";
 import GameOver from "../GameOver";
